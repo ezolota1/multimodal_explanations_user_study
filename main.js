@@ -1,8 +1,4 @@
-function randomNumber(min, max) {
-    return Math.random() * (max - min) + min;
-}
-
-let currentIndex = randomNumber(0, 2);
+let currentIndex = Math.floor(Math.random() * 3);
 
 // Define an array of predetermined links
 const links = [
