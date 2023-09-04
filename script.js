@@ -18,8 +18,10 @@ document.addEventListener("DOMContentLoaded", function() {
     // Initial setup
     updateLinkAndRedirect();
 
-    // Automatically redirect to the updated link after 2 seconds
-    setTimeout(function() {
-        window.location.href = linkElement.href;
-    }, 2000); // Redirect every 2 seconds (adjust as needed)
+    // Add a click event listener to the link
+    linkElement.addEventListener("click", function(e) {
+        e.preventDefault(); // Prevent the default link behavior
+        window.location.href = linkElement.href; // Redirect the user to the updated link
+    });
 });
+
