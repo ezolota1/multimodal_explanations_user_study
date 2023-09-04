@@ -10,9 +10,9 @@ let userCount = 0;
 
 // Function to update the link and redirect
 function updateLinkAndRedirect() {
+    userCount++;
     const linkIndex = userCount % links.length;
     linkElement.href = links[linkIndex];
-    userCount++;
 }
 
 // Initial setup
