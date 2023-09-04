@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Define an array of predetermined links
     const links = [
-        "https://example.com/link1",
-        "https://example.com/link2",
-        "https://example.com/link3"
+        "https://www.avaz.ba/",
+        "https://www.klix.ba/",
+        "https://www.oslobodjenje.ba/"
     ];
 
     const linkElement = document.getElementById("link");
