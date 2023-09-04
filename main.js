@@ -7,17 +7,16 @@ document.addEventListener("DOMContentLoaded", function() {
     ];
 
     const linkElement = document.getElementById("link");
-    let currentIndex = 0;
+    let userCount = 0;
 
     // Function to update the link and redirect
     function updateLinkAndRedirect() {
-        linkElement.href = links[currentIndex];
-        currentIndex = (currentIndex + 1) % links.length; // Cycle through the links
-        setTimeout(() => {
-            window.location.href = linkElement.href; // Redirect to the current link
-        }, 5000); // Redirect every 5 seconds (adjust as needed)
+        const linkIndex = userCount % links.length;
+        linkElement.href = links[linkIndex];
+        userCount++;
     }
 
     // Initial setup
     updateLinkAndRedirect();
 });
+
