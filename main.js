@@ -1,13 +1,14 @@
+let userCount = 0;
+
 document.addEventListener("DOMContentLoaded", function() {
     // Define an array of predetermined links
     const links = [
+        "https://www.oslobodjenje.ba/",
         "https://www.avaz.ba/",
-        "https://www.klix.ba/",
-        "https://www.oslobodjenje.ba/"
+        "https://www.klix.ba/"
     ];
 
     const linkElement = document.getElementById("link");
-    let userCount = 0;
 
     // Function to update the link and redirect
     function updateLinkAndRedirect() {
