@@ -16,7 +16,10 @@ document.addEventListener("DOMContentLoaded", function() {
         userCount++;
 
         // Simulate a click on the link to redirect the user
-        linkElement.click();
+        // linkElement.click();
+
+        // Automatically redirect to the updated link
+        window.location.href = linkElement.href;
     }
 
     // Initial setup
