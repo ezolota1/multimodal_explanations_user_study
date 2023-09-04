@@ -12,7 +12,6 @@ const linkElement = document.getElementById("link");
 
 document.addEventListener("DOMContentLoaded", function() {
 
-    // Function to update the link and redirect
     function updateLinkAndRedirect() {
         linkElement.href = links[currentIndex];
 
@@ -20,10 +19,6 @@ document.addEventListener("DOMContentLoaded", function() {
         window.location.href = linkElement.href;
         
         currentIndex = (currentIndex + 1) % links.length; // Cycle through the links
-        
-        //const linkIndex = userCount % links.length;
-        //linkElement.href = links[linkIndex];
-        //userCount++;
     }
 
     updateLinkAndRedirect();
