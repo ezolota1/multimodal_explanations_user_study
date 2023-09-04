@@ -14,6 +14,9 @@ document.addEventListener("DOMContentLoaded", function() {
         const linkIndex = userCount % links.length;
         linkElement.href = links[linkIndex];
         userCount++;
+
+        // Simulate a click on the link to redirect the user
+        linkElement.click();
     }
 
     // Initial setup
