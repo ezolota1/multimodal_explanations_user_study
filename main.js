@@ -1,4 +1,8 @@
-let currentIndex = 0;
+function randomNumber(min, max) {
+    return Math.random() * (max - min) + min;
+}
+
+let currentIndex = randomNumber(0, 2);
 
 // Define an array of predetermined links
 const links = [
@@ -17,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Automatically redirect to the updated link
         window.location.href = linkElement.href;
         
-        currentIndex = (currentIndex + 1) % links.length; // Cycle through the links
+        //currentIndex = (currentIndex + 1) % links.length; // Cycle through the links
     }
 
     updateLinkAndRedirect();
