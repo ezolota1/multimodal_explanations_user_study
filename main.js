@@ -1,4 +1,3 @@
-let userCount = 0;
 let currentIndex = 0;
 
 // Define an array of predetermined links
