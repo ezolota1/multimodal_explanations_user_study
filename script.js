@@ -1,8 +1,8 @@
 // Define an array of predetermined links
 const links = [
-    "https://example.com/link1",
-    "https://example.com/link2",
-    "https://example.com/link3"
+    "https://www.oslobodjenje.ba/",
+    "https://www.avaz.ba/",
+    "https://www.klix.ba/"
 ];
 
 const linkElement = document.getElementById("link");
