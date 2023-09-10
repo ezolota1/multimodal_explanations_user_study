@@ -2,9 +2,9 @@ let currentIndex = Math.floor(Math.random() * 3);
 
 // Define an array of predetermined links
 const links = [
-    "https://www.oslobodjenje.ba/",
-    "https://www.avaz.ba/",
-    "https://www.klix.ba/"
+    "https://xai-uni-ulm.limesurvey.net/771328?newtest=Y&lang=en",
+    "https://xai-uni-ulm.limesurvey.net/832557?newtest=Y&lang=en",
+    "https://xai-uni-ulm.limesurvey.net/812299?newtest=Y&lang=en"
 ];
 
 const linkElement = document.getElementById("link");
