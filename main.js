@@ -1,7 +1,8 @@
-let currentIndex = Math.floor(Math.random() * 2);
+let currentIndex = Math.floor(Math.random() * 3);
 
 // Define an array of predetermined links
 const links = [
+    "https://xai-uni-ulm.limesurvey.net/812299?newtest=Y&lang=en",
     "https://xai-uni-ulm.limesurvey.net/771328?newtest=Y&lang=en",
     "https://xai-uni-ulm.limesurvey.net/832557?newtest=Y&lang=en"
 ];
