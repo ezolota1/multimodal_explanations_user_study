@@ -1,9 +1,9 @@
-let currentIndex = Math.floor(Math.random() * 3);
+let currentIndex = Math.floor(Math.random() * 2);
 
 // Define an array of predetermined links
 const links = [
-    "https://xai-uni-ulm.limesurvey.net/812299?newtest=Y&lang=en",
-    "https://xai-uni-ulm.limesurvey.net/771328?newtest=Y&lang=en"
+    "https://docs.google.com/forms/d/e/1FAIpQLSc3uQuczP2M0Gu4wOhIgE11Pbn724DS672_-EmA0G1ZsyvHJA/viewform",
+    "https://docs.google.com/forms/d/e/1FAIpQLScF-bqL3cuukz6mCXrOnk82k990B8lai-kWYlY4_hUgoE5Dsg/viewform"
 ];
 
 const linkElement = document.getElementById("link");
