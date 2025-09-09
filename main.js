@@ -1,9 +1,14 @@
-let currentIndex = Math.floor(Math.random() * 2);
+let currentIndex = Math.floor(Math.random() * 6);
 
 // Define an array of predetermined links
 const links = [
-    "https://docs.google.com/forms/d/e/1FAIpQLSc3uQuczP2M0Gu4wOhIgE11Pbn724DS672_-EmA0G1ZsyvHJA/viewform",
-    "https://docs.google.com/forms/d/e/1FAIpQLScF-bqL3cuukz6mCXrOnk82k990B8lai-kWYlY4_hUgoE5Dsg/viewform"
+    "https://xai-uni-ulm.limesurvey.net/818213?lang=en",
+    "https://xai-uni-ulm.limesurvey.net/661954?lang=en",
+    "https://xai-uni-ulm.limesurvey.net/676186?lang=en",
+    "https://xai-uni-ulm.limesurvey.net/794323?lang=en",
+    "https://xai-uni-ulm.limesurvey.net/165286?lang=en",
+    "https://xai-uni-ulm.limesurvey.net/659126?lang=en"
+
 ];
 
 const linkElement = document.getElementById("link");
